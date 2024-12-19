@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6",                                  
+    "lib": [
+      "dom",
+      "es6"
+    ],                                        
+    "module": "es6",                               
+    "rootDir": "./src",                                 
+    "sourceMap": true,                                
+    "outDir": "./dist",                                   
+    "removeComments": true,                           
+    "noEmitOnError": true,                            
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,            
+    "strict": true,                                     
+    "noUnusedLocals": true,                          
+    "noUnusedParameters": true,                       
+    "noImplicitReturns": true,                        
+    "skipLibCheck": true,
+  }
+  // , "include": ["src/**/*"],
+  //   "exclude": ["node_modules", "**/*.spec.ts"]
+}
